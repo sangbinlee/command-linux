@@ -50,9 +50,17 @@ command-linux
 
 
 # 사용자 추가
-  useradd python -p '비밀번호'
-# 
-# 
+  useradd sangbinlee9 -p '비밀번호'
+
+  
+# 비번변경 
+    passwd sangbinlee9
+
+    
+# 사용자 확인
+    cat /etc/passwd |grep sangbinlee9
+    ls -rlt /home/
+
 # 
 # 
 # 

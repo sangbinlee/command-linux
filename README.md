@@ -50,7 +50,7 @@ command-linux
 
 
 # 사용자 추가
-  useradd sangbinlee9 -p '비밀번호'
+    useradd sangbinlee9 -p '비밀번호'
 
   
 # 비번변경 
